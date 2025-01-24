@@ -4,10 +4,10 @@ import math
 g = 9.8
 
 # Demander la vitesse initiale de la boule
-vitesseInitiale = float(input("Vitesse initiale (en m/s):"))
+vitesseInitiale = float(input("Vitesse initiale (en m/s): "))
 
 # Demander l'angle de lancement
-angleLancement = float(input("Angle de lancer (en degrés):"))
+angleLancement = float(input("Angle de lancer (en degrés): "))
 
 # Convertir l'angle en radians
 angleRadians = angleLancement * (math.pi / 180)
